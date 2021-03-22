@@ -1,0 +1,157 @@
+.banner {
+    background: #000;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_info {
+    background: url("https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=2560");
+    height: 90%;
+    max-height: 70%;
+    position: relative;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 55px auto;
+}
+
+.banner_search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton {
+    background-color: #fff !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    font-size: 18px !important;
+}
+
+.banner_info > button {
+    background-color: #ff7779;
+    color: #fff;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_info > button:hover {
+    background-color: #fff;
+    color: #ff7779;
+}
+
+.banner_info > h1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.banner_info > h5 {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+    .banner_info {
+        padding-top: 18vh;
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    .banner_info {
+        padding-top: 18vh;
+        height: 55%;
+    }
+
+    .banner_info > h1 {
+      font-size: 25px;
+    }
+
+    .banner_info > h5{
+    font-size: 15px;
+    }
+
+    .banner_info > button {
+    font-size: 13px;
+    }   
+}
+
+@media screen and (max-width: 840px) {
+    .banner_info {
+        padding-top: 19vh;
+        height: 53%;
+    }
+
+    .banner_info > h1 {
+      font-size: 23px;
+    }
+
+    .banner_info > h5{
+    font-size: 14px;
+    }
+
+    .banner_info > button {
+        font-size: 11px;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .banner_info {
+        padding-top: 18vh;
+        height: 50%;
+    }
+
+    .banner_info > h1 {
+      font-size: 20px;
+    }
+
+    .banner_info > h5{
+    font-size: 13px;
+    }
+
+    .banner_info > button {
+        font-size: 10px;
+    }   
+}
+
+@media screen and (max-width: 605px) {
+    .banner_info {
+        padding-top: 23vh;
+        height: 50%;
+    }
+
+    .banner_info > h1 {
+      font-size: 18px;
+    }
+
+    .banner_info > h5{
+    font-size: 10px;
+    }
+
+    .banner_info > button {
+        font-size: 8px;
+    }   
+}
+
+@media screen and (max-width: 450px) {
+    .banner_info {
+        padding-top: 10vh;
+        height: 65%;
+    }
+
+    .banner_info > h1 {
+      font-size: 20x;
+    }
+
+    .banner_info > h5{
+    font-size: 12px;
+    }
+
+    .banner_info > button {
+        font-size: 11px;
+    }   
+}

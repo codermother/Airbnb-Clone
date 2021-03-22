@@ -1,0 +1,126 @@
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+  }
+  
+.card:hover {
+  transform: scale(1.07);
+}
+  
+.card > img {
+  object-fit: fill;
+  min-width: 300px;
+  min-height: 200px;
+  width: 100%;
+}
+  
+.card_info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 10px;
+  border: 1;
+}
+  
+.card_info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  justify-items: start;
+  padding-left: 0;
+  margin-left: 0;
+}
+    
+.card_info > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card2 {
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+  }
+  
+.card2:hover {
+  transform: scale(1.07);
+}
+  
+.card2 > img {
+  object-fit: fill;
+  min-width: 400px;
+  min-height: 300px;
+  width: 100%;
+}
+  
+.card2_info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 10px;
+  border: 1;
+}
+  
+.card2_info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  justify-items: start;
+  padding-left: 0;
+  margin-left: 0;
+}
+    
+.card2_info > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card3 {
+  margin: 20px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.card3:hover {
+transform: scale(1.07);
+}
+
+.card3 > img {
+object-fit: fill;
+min-width: 400px;
+min-height: 100px;
+width: 100%;
+}
+
+.card3_info {
+margin-top: -9px;
+border-radius: 10px;
+padding: 20px 20px 20px 10px;
+padding-top: 20px;
+border: 1;
+}
+
+.card3_info > h2 {
+font-size: 18px;
+font-weight: 600;
+justify-items: start;
+padding-left: 0;
+margin-left: 0;
+}
+  
+.card3_info > h4 {
+font-size: 14px;
+font-weight: 300;
+margin-top: 8px;
+margin-bottom: 8px;
+}

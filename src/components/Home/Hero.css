@@ -1,0 +1,8 @@
+.hero {
+    background: url("https://a0.muscache.com/im/pictures/eff28e1d-51c4-49ff-8266-68d6929ea1ec.jpg?im_w=1200") center center;
+    margin: 20px auto;
+    width: 87%;
+    height: 70vh;
+    border-radius: 15px;
+    position: relative;
+}
