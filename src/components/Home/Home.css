@@ -17,84 +17,39 @@ font-size: 35px;
   padding: 50px 80px 20px 80px;
   background-color: #000;
   color: #fff;
-  margin-bottom: 60px;  
+  margin-bottom: 60px; 
+  margin-top: 130px; 
 }
 
 .home-section-2 > h1 {
+padding-left: 10px;
 font-size: 40px;
 font-weight: 600;
   
 }
 
 .home-section-2 > h4 {
+  padding-left: 10px;
   font-size: 25px;
   font-weight: 400;
 }
 
 @media screen and (max-width: 900px) {
-.home_section {
-  padding-right: 40px;
-  padding-left: 40px;
-}
-
-.home_section2 {
-  padding-right: 30px;
-  padding-left: 30px;
- 
-}
-
-
-}
-
-/* .home_section {
-    display: flex;
-    padding: 10px 80px 80px 80px;
-  }
-
-.home_h1 {
-  padding-top: 20px;
-  display: flex;
-  padding-left: 95px;
-}
-
-.home_h2 {
-  font-weight: 600;
-  display: flex;
-  padding-left: 95px;
-  background-color: black;
-  color: #fff;
-  padding-top: 60px;
-}
-
-.home_h3 {
-  display: flex;
-  padding-left: 95px;
-  background-color: black;
-  color: #fff;
-  font-weight: 400;
-}
-
-
-.home_section2{
-  display: flex;
-  padding: 10px 80px 20px 80px;
-  background-color: #000;
-  color: #fff;
-  margin-bottom: 60px;
- 
-}
-
-@media screen and (max-width: 900px) {
-  .home_section {
+  .home-section-1 {
     padding-right: 40px;
     padding-left: 40px;
   }
 
-  .home_section2 {
+  .home-section-2 {
     padding-right: 30px;
     padding-left: 30px;
-   
+  
   }
+}
 
-
-} */
+@media screen and (max-width: 700px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
