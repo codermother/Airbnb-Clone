@@ -5,9 +5,13 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero">
-      <h1>Your world is worth sharing</h1>
-      <h2>Turn unused space into an opportunity</h2>
-      <Button variant="outlined">Start hosting</Button>
+      <div className="hero-wrapper">
+        <h1>Your world is worth sharing</h1>
+        <h2>Turn your extra space into your next opportunity.</h2>
+        <Button className="hero-btn" variant="outlined">
+          Become a Host
+        </Button>
+      </div>
     </div>
   );
 }

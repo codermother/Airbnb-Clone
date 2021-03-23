@@ -1,8 +1,44 @@
 .hero {
     background: url("https://a0.muscache.com/im/pictures/eff28e1d-51c4-49ff-8266-68d6929ea1ec.jpg?im_w=1200") center center;
-    margin: 20px auto;
+    margin: 60px auto;
     width: 87%;
-    height: 70vh;
+    height: 65vh;
     border-radius: 15px;
     position: relative;
+    color: #fff;
+}
+
+.hero-wrapper {
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.hero-wrapper > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.hero-wrapper > h2 {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero-wrapper > .hero-btn {
+    background-color: #f5f8cf; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: rgb(68, 65, 65);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hero-wrapper > .hero-btn:hover {
+    background-color: #f5f8cf; 
 }
