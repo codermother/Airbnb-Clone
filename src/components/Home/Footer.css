@@ -1,0 +1,37 @@
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer-wrap {
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+
+.footer-wrap > p {
+    font-size: 15px;
+}
+.footer > p {
+    font-size: 14px;
+}
+
+.social-icon{
+    color:rgb(32, 31, 31);
+    margin-left: 5px;
+}
+.social {
+    margin-right: 60px;
+}
+
+
+@media screen and (max-width: 900px) {
+.footer-wrap {
+    margin-left: 40px;
+}
+    .social {
+        margin-right: 30px;
+    }
+}
