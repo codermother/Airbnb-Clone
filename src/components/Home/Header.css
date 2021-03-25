@@ -5,7 +5,7 @@
     position: sticky;
     background: #fff;
     z-index: 100;
-    width: 100%;
+    width: 100vw;
     top: 0;
 }
 
