@@ -46,11 +46,12 @@
 }
 
 @media screen and (max-width: 550px) {
+
     .header_icon {
-        width: 25%;
+        margin-left: 3px;
     }
     .header_center > input{
-        width: 10%;
+        width: 5%;
         height: 20%;
         padding-left: 150px;
         margin-right: 5px;
@@ -58,12 +59,12 @@
 
     .header_right  {
         padding-left: 5px;
+        padding-right: 5px;
     }
     
     .header_right > p {
         display: none;
     }
-
 }
 
 @media screen and (max-width: 400px) {
