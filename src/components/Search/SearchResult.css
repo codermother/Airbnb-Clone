@@ -16,6 +16,7 @@
     width: 350px;
     border-radius: 10px;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .search-result-info {
